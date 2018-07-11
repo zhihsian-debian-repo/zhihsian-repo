@@ -1,0 +1,18 @@
+Source: zhihsian-repo
+Section: misc
+Priority: optional
+Maintainer: Zhihsian Que <i@zhihsian.me>
+Build-Depends:
+ debhelper-compat (= 12),
+Standards-Version: 4.4.0
+Homepage: https://github.com/zhihsian-debian-repo/zhihsian-repo
+Vcs-Git: https://github.com/zhihsian-debian-repo/zhihsian-repo.git
+Vcs-Browser: https://github.com/zhihsian-debian-repo/zhihsian-repo
+
+Package: zhihsian-repo
+Architecture: all
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends},
+Description: Zhihsian's repo files.
+ Apt source and public key of Zhihsian's repo.
