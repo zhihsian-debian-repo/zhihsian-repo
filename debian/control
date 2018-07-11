@@ -1,0 +1,14 @@
+Source: zijung-repo
+Section: misc
+Priority: optional
+Maintainer: Zijung Chueh <i@zijung.me>
+Build-Depends:
+ debhelper (>= 11),
+Standards-Version: 4.1.3
+Homepage: https://github.com/zijung-debian-repo/zijung-repo
+Vcs-Git: https://github.com/zijung-debian-repo/zijung-repo.git
+Vcs-Browser: https://github.com/zijung-debian-repo/zijung-repo
+
+Package: zijung-repo
+Architecture: all
+Description: Zijung Chueh's repo files.
